@@ -1,0 +1,55 @@
+GET {{host-url}}//admin/users
+
+
+###
+GET {{host-url}}//oids
+
+
+###
+GET {{host-url}}//tests
+###
+GET {{host-url}}//dictionary/oids?gds=&country=&filter=&online=1&sortOrder=asc&field=gds&pageNumber=1&pageSize=10
+
+###
+GET {{host-url}}/dictionary/oids?gds=&country=&filter=&online=1&sortOrder=asc&field=oid&pageNumber=1&pageSize=10
+
+###
+GET {{host-url}}//dictionary/oids/cn
+
+###
+
+GET {{host-url}}//dictionary/oids/reason
+
+###
+
+GET {{host-url}}//dictionary/oids/access?country=&gds=&responsible=&department=&terminal=&activeStatus=active&sortOrder=desc&sortField=terminal&pageNumber=1&pageSize=10
+
+###
+
+GET {{host-url}}//dictionary/oids/accessbyoidid
+
+###
+
+GET {{host-url}}//dictionary/oids/updatebyid
+
+###
+
+GET {{host-url}}//dictionary/oids/deletebyid
+
+###
+
+GET {{host-url}}//dictionary/oids/saveAccess
+
+###
+
+POST {{host-url}}//oids/update
+
+###
+
+GET {{host-url}}//dictionary/oids/accessTest?country=KZ
+
+###
+
+GET {{host-url}}//dictionary/oids/entity
+
+###
